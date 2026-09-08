@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		039EEC572A03933617BA2412 /* SalahLoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3507A595F2BA8A8B9AF586 /* SalahLoadingScreen.swift */; };
+		0415A8E97186F05BF82DA595 /* SLPostureFigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1A72A6F21C2EE90686E97E /* SLPostureFigure.swift */; };
+		04C8362A09C0FDFB777CB9CB /* SLMilestones.swift in Sources */ = {isa = PBXBuildFile; fileRef = F531512381D0210941008D01 /* SLMilestones.swift */; };
+		1E0EEA205943773881387F0B /* SLSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B207264FD6BB912B7A8FF81 /* SLSettingsView.swift */; };
+		2CE31624170AD2A8D0894891 /* SLStreakQadaViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA02B39C6FDAAEE9288F0B0F /* SLStreakQadaViews.swift */; };
+		2DF59EA82E221A263BC9B4F6 /* SLGlyphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DE6EADD60C679E2259208 /* SLGlyphs.swift */; };
+		3865877678ACEABBABF4DD5F /* SLPrayerEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FFD5A660F615A83E49CF17 /* SLPrayerEngine.swift */; };
+		4416B66C1B516B107E6EDF20 /* SLPrayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CA09573B8913D2FC076613 /* SLPrayerModel.swift */; };
+		4B6DAFD22B6AFB6FDF210991 /* SLTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D7081A602E02DA32AE5FC /* SLTheme.swift */; };
+		58F14BCCE6F3EDA3744C1801 /* SLStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E73E0726A7F7DFA4BCB00 /* SLStatistics.swift */; };
+		70662AE3798C102986D95C9F /* SLGuideContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA9D33EAB13EE963DB62249 /* SLGuideContent.swift */; };
+		72ABD868088102479E0D4CFA /* SLPassages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C81830B7F06CBE85EE2A92 /* SLPassages.swift */; };
+		A881A06751F70623B518053D /* SLCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB40BC22F0C93D1B5208493 /* SLCharts.swift */; };
+		BA805546384526C04DE6AFF6 /* SLGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D6B173060E6EF87D064B04 /* SLGuideView.swift */; };
+		BF84EA65E97C2EECBAF38056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9805017E177CD52EBD21E59 /* Assets.xcassets */; };
+		CA15E48A6A044FC6EAE3F261 /* SLCityTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC40B9956152C9F37F9784A /* SLCityTable.swift */; };
+		CFC3F280C75F8D7610B03754 /* SLCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325AA32716785D15BC6D3FFF /* SLCalendarView.swift */; };
+		E1C5646C10C577C4CFC88F3B /* SLComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA5700E8135A0A694CE57DA /* SLComponents.swift */; };
+		E554503A0E6E40327B29ED68 /* SLTodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53FA343FE729F40195EDA06 /* SLTodayView.swift */; };
+		E5DD1D8E00ED202D060B59F0 /* SLStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7878FDF2BFA96FA611E3E4 /* SLStore.swift */; };
+		E6693ABE1A1A20E2220AEE1A /* SLRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5E068E7A2A5B79BEBC547 /* SLRootView.swift */; };
+		E7279CF7A20A1E6E9C2EF29A /* SalahStreakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B103CEAAB3D4F128BF8B7169 /* SalahStreakApp.swift */; };
+		EE0EF9F7F146E135E7ECC532 /* SLStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95FF5458F5A4C9AC796419 /* SLStatsView.swift */; };
+		F8624575E1F3CC95F157CFD1 /* SalahWebPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6985FCE9749059C08560CDE2 /* SalahWebPanel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02CA09573B8913D2FC076613 /* SLPrayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLPrayerModel.swift; sourceTree = "<group>"; };
+		0D2BD12CACD0C51688756FFC /* Salah Streak.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "Salah Streak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C81830B7F06CBE85EE2A92 /* SLPassages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLPassages.swift; sourceTree = "<group>"; };
+		279D7081A602E02DA32AE5FC /* SLTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLTheme.swift; sourceTree = "<group>"; };
+		325AA32716785D15BC6D3FFF /* SLCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCalendarView.swift; sourceTree = "<group>"; };
+		3F7878FDF2BFA96FA611E3E4 /* SLStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLStore.swift; sourceTree = "<group>"; };
+		48FFD5A660F615A83E49CF17 /* SLPrayerEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLPrayerEngine.swift; sourceTree = "<group>"; };
+		4B207264FD6BB912B7A8FF81 /* SLSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSettingsView.swift; sourceTree = "<group>"; };
+		4D1A72A6F21C2EE90686E97E /* SLPostureFigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLPostureFigure.swift; sourceTree = "<group>"; };
+		6985FCE9749059C08560CDE2 /* SalahWebPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalahWebPanel.swift; sourceTree = "<group>"; };
+		6DB40BC22F0C93D1B5208493 /* SLCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCharts.swift; sourceTree = "<group>"; };
+		8A3507A595F2BA8A8B9AF586 /* SalahLoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalahLoadingScreen.swift; sourceTree = "<group>"; };
+		A5D5E068E7A2A5B79BEBC547 /* SLRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLRootView.swift; sourceTree = "<group>"; };
+		AAC40B9956152C9F37F9784A /* SLCityTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLCityTable.swift; sourceTree = "<group>"; };
+		ACA5700E8135A0A694CE57DA /* SLComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLComponents.swift; sourceTree = "<group>"; };
+		AEA9D33EAB13EE963DB62249 /* SLGuideContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLGuideContent.swift; sourceTree = "<group>"; };
+		B103CEAAB3D4F128BF8B7169 /* SalahStreakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalahStreakApp.swift; sourceTree = "<group>"; };
+		C1827F87857534F8D713B2C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CA02B39C6FDAAEE9288F0B0F /* SLStreakQadaViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLStreakQadaViews.swift; sourceTree = "<group>"; };
+		D83DE6EADD60C679E2259208 /* SLGlyphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLGlyphs.swift; sourceTree = "<group>"; };
+		D85E73E0726A7F7DFA4BCB00 /* SLStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLStatistics.swift; sourceTree = "<group>"; };
+		D9805017E177CD52EBD21E59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4D6B173060E6EF87D064B04 /* SLGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLGuideView.swift; sourceTree = "<group>"; };
+		F531512381D0210941008D01 /* SLMilestones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLMilestones.swift; sourceTree = "<group>"; };
+		F53FA343FE729F40195EDA06 /* SLTodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLTodayView.swift; sourceTree = "<group>"; };
+		FC95FF5458F5A4C9AC796419 /* SLStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLStatsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		882778E82BC604F0363D1106 /* SalahStreak */ = {
+			isa = PBXGroup;
+			children = (
+				D9805017E177CD52EBD21E59 /* Assets.xcassets */,
+				C1827F87857534F8D713B2C1 /* Info.plist */,
+				E0E1BC850F1AAF923A1C879E /* Sources */,
+			);
+			path = SalahStreak;
+			sourceTree = "<group>";
+		};
+		CB10FF85CF6C6648B8A67AB2 = {
+			isa = PBXGroup;
+			children = (
+				882778E82BC604F0363D1106 /* SalahStreak */,
+				DD220072177CB3C0AB78D3B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD220072177CB3C0AB78D3B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D2BD12CACD0C51688756FFC /* Salah Streak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0E1BC850F1AAF923A1C879E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8A3507A595F2BA8A8B9AF586 /* SalahLoadingScreen.swift */,
+				B103CEAAB3D4F128BF8B7169 /* SalahStreakApp.swift */,
+				6985FCE9749059C08560CDE2 /* SalahWebPanel.swift */,
+				325AA32716785D15BC6D3FFF /* SLCalendarView.swift */,
+				6DB40BC22F0C93D1B5208493 /* SLCharts.swift */,
+				AAC40B9956152C9F37F9784A /* SLCityTable.swift */,
+				ACA5700E8135A0A694CE57DA /* SLComponents.swift */,
+				D83DE6EADD60C679E2259208 /* SLGlyphs.swift */,
+				AEA9D33EAB13EE963DB62249 /* SLGuideContent.swift */,
+				F4D6B173060E6EF87D064B04 /* SLGuideView.swift */,
+				F531512381D0210941008D01 /* SLMilestones.swift */,
+				26C81830B7F06CBE85EE2A92 /* SLPassages.swift */,
+				4D1A72A6F21C2EE90686E97E /* SLPostureFigure.swift */,
+				48FFD5A660F615A83E49CF17 /* SLPrayerEngine.swift */,
+				02CA09573B8913D2FC076613 /* SLPrayerModel.swift */,
+				A5D5E068E7A2A5B79BEBC547 /* SLRootView.swift */,
+				4B207264FD6BB912B7A8FF81 /* SLSettingsView.swift */,
+				D85E73E0726A7F7DFA4BCB00 /* SLStatistics.swift */,
+				FC95FF5458F5A4C9AC796419 /* SLStatsView.swift */,
+				3F7878FDF2BFA96FA611E3E4 /* SLStore.swift */,
+				CA02B39C6FDAAEE9288F0B0F /* SLStreakQadaViews.swift */,
+				279D7081A602E02DA32AE5FC /* SLTheme.swift */,
+				F53FA343FE729F40195EDA06 /* SLTodayView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91EEBD195947C99456309368 /* Salah Streak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CB6629EE1EAEBE22BCF4002 /* Build configuration list for PBXNativeTarget "Salah Streak" */;
+			buildPhases = (
+				FAF3B1BFA888BAFEF3C582D1 /* Sources */,
+				1DC0F04161CDE673E34A3C91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Salah Streak";
+			packageProductDependencies = (
+			);
+			productName = "Salah Streak";
+			productReference = 0D2BD12CACD0C51688756FFC /* Salah Streak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48EEBB3CD4B0E2FD744E18D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					91EEBD195947C99456309368 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 1BA0D72A8B1C0EFC91DAA74A /* Build configuration list for PBXProject "Salah Streak" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CB10FF85CF6C6648B8A67AB2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DD220072177CB3C0AB78D3B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91EEBD195947C99456309368 /* Salah Streak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DC0F04161CDE673E34A3C91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF84EA65E97C2EECBAF38056 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF3B1BFA888BAFEF3C582D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC3F280C75F8D7610B03754 /* SLCalendarView.swift in Sources */,
+				A881A06751F70623B518053D /* SLCharts.swift in Sources */,
+				CA15E48A6A044FC6EAE3F261 /* SLCityTable.swift in Sources */,
+				E1C5646C10C577C4CFC88F3B /* SLComponents.swift in Sources */,
+				2DF59EA82E221A263BC9B4F6 /* SLGlyphs.swift in Sources */,
+				70662AE3798C102986D95C9F /* SLGuideContent.swift in Sources */,
+				BA805546384526C04DE6AFF6 /* SLGuideView.swift in Sources */,
+				04C8362A09C0FDFB777CB9CB /* SLMilestones.swift in Sources */,
+				72ABD868088102479E0D4CFA /* SLPassages.swift in Sources */,
+				0415A8E97186F05BF82DA595 /* SLPostureFigure.swift in Sources */,
+				3865877678ACEABBABF4DD5F /* SLPrayerEngine.swift in Sources */,
+				4416B66C1B516B107E6EDF20 /* SLPrayerModel.swift in Sources */,
+				E6693ABE1A1A20E2220AEE1A /* SLRootView.swift in Sources */,
+				1E0EEA205943773881387F0B /* SLSettingsView.swift in Sources */,
+				58F14BCCE6F3EDA3744C1801 /* SLStatistics.swift in Sources */,
+				EE0EF9F7F146E135E7ECC532 /* SLStatsView.swift in Sources */,
+				E5DD1D8E00ED202D060B59F0 /* SLStore.swift in Sources */,
+				2CE31624170AD2A8D0894891 /* SLStreakQadaViews.swift in Sources */,
+				4B6DAFD22B6AFB6FDF210991 /* SLTheme.swift in Sources */,
+				E554503A0E6E40327B29ED68 /* SLTodayView.swift in Sources */,
+				039EEC572A03933617BA2412 /* SalahLoadingScreen.swift in Sources */,
+				E7279CF7A20A1E6E9C2EF29A /* SalahStreakApp.swift in Sources */,
+				F8624575E1F3CC95F157CFD1 /* SalahWebPanel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C1342091780C61A8C302E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SalahStreak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salahstreak.app;
+				PRODUCT_NAME = "Salah Streak";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2719708EF832E1E4DE42126E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SalahStreak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salahstreak.app;
+				PRODUCT_NAME = "Salah Streak";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		306320A03C5CEE4799216C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6EBC73FDD9E94A00405D94E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BA0D72A8B1C0EFC91DAA74A /* Build configuration list for PBXProject "Salah Streak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBC73FDD9E94A00405D94E5 /* Debug */,
+				306320A03C5CEE4799216C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2CB6629EE1EAEBE22BCF4002 /* Build configuration list for PBXNativeTarget "Salah Streak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1342091780C61A8C302E86 /* Debug */,
+				2719708EF832E1E4DE42126E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48EEBB3CD4B0E2FD744E18D4 /* Project object */;
+}
