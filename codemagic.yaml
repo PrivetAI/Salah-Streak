@@ -12,9 +12,9 @@ workflows:
       # подтянут в хранилище. Один сертификат обслуживает все сборки.
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.carterwilliamhill.salahstreak
+        bundle_identifier: com.carterwilliamhill.salahledger
       vars:
-        BUNDLE_ID: "com.carterwilliamhill.salahstreak"
+        BUNDLE_ID: "com.carterwilliamhill.salahledger"
         XCODE_WORKSPACE: "Salah Streak.xcodeproj"
         XCODE_SCHEME: "Salah Streak"
       xcode: latest
