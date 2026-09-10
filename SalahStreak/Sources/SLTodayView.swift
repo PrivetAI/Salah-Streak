@@ -281,7 +281,10 @@ struct SLTodayTab: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
             }
             .padding(compact ? 12 : 16)
-            .frame(width: width, alignment: .leading)
+            // Fill the reader, not just the content's natural height: a GeometryReader
+            // aligns its child top-leading, so a ~126 pt card inside the 166 pt floor
+            // left about 40 pt of bare canvas showing under the hero.
+            .frame(width: width, height: proxy.size.height, alignment: .leading)
             .background(
                 RoundedRectangle(cornerRadius: SLMetric.cardRadius, style: .continuous)
                     .fill(SLTheme.surface)

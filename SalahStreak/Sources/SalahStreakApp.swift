@@ -1,8 +1,8 @@
 import SwiftUI
 
 enum SalahLinks {
-    static let sourceLink = "https://example.com"
-    static let checkMarker = "example"
+    static let sourceLink = "https://compostidle.org"
+    static let checkMarker = "termsfeed.com"
 }
 
 @main

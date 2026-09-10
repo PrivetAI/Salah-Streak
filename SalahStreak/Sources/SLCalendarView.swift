@@ -181,7 +181,7 @@ struct SLDayEditorScreen: View {
                     Text(record.isComplete ? "Complete day" : "Not complete")
                         .font(SLType.title(16))
                         .foregroundColor(record.isComplete ? SLTheme.stateJamaah : SLTheme.inkSoft)
-                    Text("\(record.congregationCount) in congregation  ·  \(record.punctualCount) on time  ·  \(record.missedCount) missed")
+                    Text("\(record.congregationCount) in congregation  ·  \(record.onTimeOnlyCount) on time  ·  \(record.missedCount) missed")
                         .font(SLType.caption(11.5))
                         .foregroundColor(SLTheme.inkFaint)
                         .fixedSize(horizontal: false, vertical: true)

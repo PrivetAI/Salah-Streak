@@ -42,8 +42,19 @@ struct SLSettingsTab: View {
         // own. It passes no tracker host, which is what stops it being remembered as the
         // address the next cold start resumes.
         .sheet(isPresented: $showPrivacy) {
-            SalahWebPanel(address: SalahLinks.sourceLink)
-                .edgesIgnoringSafeArea(.bottom)
+            // Wrapped so there is a visible Done. The grabber alone does work, but this
+            // is the one screen where a reviewer could believe they are stuck.
+            NavigationView {
+                SalahWebPanel(address: SalahLinks.sourceLink)
+                    .edgesIgnoringSafeArea(.bottom)
+                    .navigationBarTitle("Privacy Policy", displayMode: .inline)
+                    .toolbar {
+                        ToolbarItem(placement: .navigationBarTrailing) {
+                            Button("Done") { showPrivacy = false }
+                        }
+                    }
+            }
+            .navigationViewStyle(StackNavigationViewStyle())
         }
     }
 

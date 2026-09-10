@@ -90,6 +90,10 @@ struct SLDayRecord: Codable, Equatable {
     var markedCount: Int { SLPrayer.allCases.filter { state($0) != .none }.count }
     var performedCount: Int { SLPrayer.allCases.filter { state($0).isPerformed }.count }
     var punctualCount: Int { SLPrayer.allCases.filter { state($0).isPunctual }.count }
+    /// On time but NOT in congregation. `punctualCount` deliberately includes
+    /// congregation (it drives the on-time percentage), so any breakdown that shows
+    /// the two side by side has to use this one or the day adds up to more than five.
+    var onTimeOnlyCount: Int { SLPrayer.allCases.filter { state($0) == .onTime }.count }
     var congregationCount: Int { SLPrayer.allCases.filter { state($0) == .congregation }.count }
     var missedCount: Int { SLPrayer.allCases.filter { state($0) == .missed }.count }
     var naflCount: Int { nawafil.filter { $0 }.count }
