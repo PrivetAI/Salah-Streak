@@ -29,7 +29,7 @@ struct SalahLoadingScreen: View {
                 }
 
                 VStack(spacing: 5) {
-                    Text("Salah Streak")
+                    Text("Salah Ledger")
                         .font(SLType.title(22))
                         .foregroundColor(Color(red: 0.976, green: 0.953, blue: 0.898))
                     Text("A record of what you have prayed")

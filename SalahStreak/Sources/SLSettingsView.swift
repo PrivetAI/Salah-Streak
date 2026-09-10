@@ -172,7 +172,7 @@ struct SLSettingsTab: View {
                                  detail: "Opens in a panel inside the app.",
                                  action: { showPrivacy = true })
                         SLDivider()
-                        infoRow(title: "Version", value: "1.0", detail: "Salah Streak")
+                        infoRow(title: "Version", value: "1.0", detail: "Salah Ledger")
                         SLDivider()
                         infoRow(title: "Reminders",
                                 value: "None",
